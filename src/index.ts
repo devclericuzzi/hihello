@@ -1,5 +1,14 @@
 import promptSync from "prompt-sync";
-import { currentValue, getOperators, getParams, inputParse, printStatus, setOperators, setParams } from "./calculator";
+import {
+  currentValue,
+  getOperators,
+  getParams,
+  inputParse,
+  printStatus,
+  result,
+  setOperators,
+  setParams,
+} from "./calculator";
 import { isDivideByZeroError, isInvalidInputError } from "./errors";
 
 function loop(prompt: promptSync.Prompt) {
@@ -10,7 +19,7 @@ function loop(prompt: promptSync.Prompt) {
     if (input) {
       inputParse(input);
       printStatus();
-    }
+    } else result();
   } catch (err: unknown) {
     if (isInvalidInputError(err)) {
       setParams(currentParams);
