@@ -1,0 +1,28 @@
+{
+  "editor.codeActionsOnSave": [
+    "source.organizeImports",
+    "source.fixAll.eslint"
+  ],
+  "sqltools.format": {
+    "linesBetweenQueries": 2,
+    "reservedWordCase": "upper",
+    "language": "pl/sql"
+  },
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "mtxr.sqltools"
+  },
+  "[cucumber]": {
+    "editor.defaultFormatter": "CucumberOpen.cucumber-official"
+  },
+  "sqltools.results.reuseTabs": "connection",
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

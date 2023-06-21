@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "mikestead.dotenv",
+        "mtxr.sqltools",
+        "cucumberopen.cucumber-official"
+    ]
+}
